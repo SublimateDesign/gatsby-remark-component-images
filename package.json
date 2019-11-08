@@ -1,7 +1,7 @@
 {
   "name": "gatsby-remark-component-images",
   "description": "A Gatsby remark plugin applying gatsby-plugin-sharp processing to images defined in html-style markdown rehyped components.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Matt Ubben <dev@sublimatedesign.com>",
   "dependencies": {
     "@babel/runtime": "^7.6.3",

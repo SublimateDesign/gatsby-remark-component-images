@@ -1,6 +1,6 @@
 # gatsby-remark-component-images
 
- A Gatsby remark plugin applying gatsby-plugin-sharp processing to html-style markdown tags. The results can then be converted into 
+ A Gatsby remark plugin applying gatsby-plugin-sharp processing to markdown html tags that are mapped to React components using rehypeReact. Refer to the ["Custom Components"](https://using-remark.gatsbyjs.org/custom-components/) tutorial for further details and caveats to components generated from html elements.
 
 ## Install
 

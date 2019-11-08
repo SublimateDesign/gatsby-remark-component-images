@@ -1,0 +1,54 @@
+{
+  "name": "gatsby-remark-component-images",
+  "description": "A Gatsby remark plugin applying gatsby-plugin-sharp processing to images defined in html-style markdown rehyped components.",
+  "version": "0.0.1",
+  "author": "Matt Ubben <dev@sublimatedesign.com>",
+  "dependencies": {
+    "@babel/runtime":"^7.6.3",
+    "bluebird": "^3.7.1",
+    "cheerio": "^1.0.0-rc.3",
+    "deep-map": "^2.0.0",
+    "is-relative-url": "^3.0.0",
+    "lodash": "^4.17.15",
+    "slash": "^3.0.0",
+    "potrace": "^2.1.2",
+    "unist-util-visit-parents": "^2.1.2",
+    "gatsby-plugin-sharp": "^2.2.29",
+    "gatsby": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "cross-env": "^5.2.1"
+  },
+  "peerDependencies": {
+    "gatsby": ">2.0.15",
+    "gatsby-plugin-sharp": "^2.1.2"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "component",
+    "image",
+    "markdown",
+    "rehype",
+    "remark",
+    "responsive images"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepack": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SublimateDesign/gatsby-remark-component-images.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SublimateDesign/gatsby-remark-component-images/issues"
+  },
+  "homepage": "https://github.com/SublimateDesign/gatsby-remark-component-images#readme"
+}

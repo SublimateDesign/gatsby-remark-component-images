@@ -152,7 +152,7 @@ const MediaGallery = ({children, displayclass}) => {
         <div className={displayclass}>
             {allMedia.map(media => 
                 <div className={media.displayclass}>
-                    <Img fluid={media.sources} display></Img>
+                    <Img fluid={media.sources}></Img>
                 </div>
             )}            
         </div>

@@ -4,22 +4,22 @@
   "version": "0.0.5",
   "author": "Matt Ubben <dev@sublimatedesign.com>",
   "dependencies": {
-    "@babel/runtime": "^7.11.2",
+    "@babel/runtime": "^7.13.9",
     "bluebird": "^3.7.2",
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.5",
     "deep-map": "^2.0.0",
-    "gatsby": "^2.24.47",
-    "gatsby-plugin-sharp": "^2.6.27",
+    "gatsby": "^2.32.9",
+    "gatsby-plugin-sharp": "^2.14.3",
     "is-relative-url": "^3.0.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "potrace": "^2.1.8",
     "slash": "^3.0.0",
     "unist-util-visit-parents": "^2.1.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
     "cross-env": "^5.2.1"
   },
   "peerDependencies": {

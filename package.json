@@ -9,7 +9,7 @@
     "cheerio": "^1.0.0-rc.5",
     "deep-map": "^2.0.0",
     "gatsby": "^2.32.9",
-    "gatsby-plugin-sharp": "^2.14.3",
+    "gatsby-plugin-sharp": "^4.25.1",
     "is-relative-url": "^3.0.0",
     "lodash": "^4.17.21",
     "potrace": "^2.1.8",
